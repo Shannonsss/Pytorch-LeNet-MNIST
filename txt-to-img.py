@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 # 打開txt檔
-f = open('D:/python/mnist/Train.txt', 'r')
+f = open('./mnist/Train.txt', 'r')
 line = f.readlines()
 f.close()
 
